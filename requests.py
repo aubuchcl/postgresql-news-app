@@ -65,4 +65,4 @@ print('failure rate')
 for row in failure_rate:
     if int(row[4]) > 1:
         print('{} -- {}% errors'.format(row[3], row[4]))
-#
+
