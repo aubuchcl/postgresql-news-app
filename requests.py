@@ -1,5 +1,6 @@
 import psycopg2
 
+
 DBNAME = "news"
 db = psycopg2.connect(database=DBNAME)
 
@@ -40,12 +41,28 @@ successrate = '''CREATE VIEW successrate AS
 c.execute(successrate)
 
 # execute actual query
+# c.execute('''select
+#              *, ROUND(fail/(fail+success)::numeric*100,2) as failure_rate
+#              from
+#              successrate
+#              ''')
 c.execute('''select
-             *, fail/(fail+success)::numeric*100 as failure_rate
+             *, to_char(time, 'Mon DD, YYYY'), ROUND(fail/(fail+success)::numeric*100,2) as failure_rate
              from
-             successrate''')
+             successrate
+             ''')
+
+
+
+
 
 failure_rate = c.fetchall()
 
 print('failure rate')
-print('{} -- {}'.format(failure_rate[0][0], failure_rate[0][3]))
+# print(failure_rate)
+# print('{} -- {}'.format(failure_rate[0][0], failure_rate[0][3]))
+
+for row in failure_rate:
+    if int(row[4]) > 1:
+        print('{} -- {}% errors'.format(row[3], row[4]))
+#
