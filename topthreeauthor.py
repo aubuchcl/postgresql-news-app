@@ -27,8 +27,11 @@ c.execute('''select
              group by 
              name 
              order by 
-             total desc;''')
-test = c.fetchall()
+             total desc limit 3;''')
+authors = c.fetchall()
 
-print('test data')
-print(test)
+print('author data')
+print(authors)
+
+for row in authors:
+    print('{} -- {} views'.format(row[0], row[1]))
