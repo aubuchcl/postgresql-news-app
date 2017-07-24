@@ -29,6 +29,6 @@ pop_articles = c.fetchall()
 # print(pop_articles[0][0])
 # print(pop_articles[0][1])
 # print(pop_articles[0][2])
-
+print('articles data')
 for row in pop_articles:
     print ('{} - {} views'.format(row[0], row[2]))
