@@ -24,6 +24,9 @@ for row in pop_articles:
     print ('{} - {} views'.format(row[0], row[2]))
 
 
+print("-"*25)
+print("*"*25)
+print("-"*25)
 # author sort and query
 visitview = '''create view visitview as
              select
@@ -50,6 +53,10 @@ print('author data')
 for row in authors:
     print('{} -- {} views'.format(row[0], row[1]))
 
+
+print("-"*25)
+print("*"*25)
+print("-"*25)
 
 # request success rate query and sort
 successrate = '''CREATE VIEW successrate AS 
@@ -97,3 +104,9 @@ print('failure rate')
 for row in failure_rate:
     if int(row[4]) > 1:
         print('{} -- {}% errors'.format(row[3], row[4]))
+
+
+print("-"*25)
+print("*"*25)
+print("-"*25)
+print("THANK YOU!"*5)

@@ -19,3 +19,4 @@ from this point please run each file as follows
 - from the command line and inside the directory you have cloned these files into:
 -- run each file as so:  python 'filename'
 
+if you would like to run all queries at once you can run python all_files.py

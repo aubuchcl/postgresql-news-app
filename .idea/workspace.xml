@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd40b2f-a4d0-4b41-8f2c-12949f84e635" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requests.py" afterPath="$PROJECT_DIR$/requests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/all_files.py" afterPath="$PROJECT_DIR$/all_files.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -67,15 +68,15 @@
       <file leaf-file-name="all_files.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/all_files.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="444">
+              <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
               <folding>
-                <marker date="1500883895000" expanded="true" signature="131:391" ph="select title... articles" />
-                <marker date="1500883895000" expanded="true" signature="586:939" ph="create view visitview... " />
-                <marker date="1500883895000" expanded="true" signature="624:905" ph="select name,... articles" />
-                <marker date="1500883895000" expanded="true" signature="979:1153" ph="select name,... visitview" />
-                <marker date="1500883895000" expanded="true" signature="1333:1962" ph="CREATE VIEW successrate... " />
-                <marker date="1500883895000" expanded="true" signature="2006:2160" ph="select *, to... successrate" />
+                <marker date="1500884107000" expanded="true" signature="131:391" ph="select title... articles" />
+                <marker date="1500884107000" expanded="true" signature="628:981" ph="create view visitview... " />
+                <marker date="1500884107000" expanded="true" signature="666:947" ph="select name,... articles" />
+                <marker date="1500884107000" expanded="true" signature="1021:1195" ph="select name,... visitview" />
+                <marker date="1500884107000" expanded="true" signature="1418:2047" ph="CREATE VIEW successrate... " />
+                <marker date="1500884107000" expanded="true" signature="2091:2245" ph="select *, to... successrate" />
               </folding>
             </state>
           </provider>
@@ -91,8 +92,8 @@
       <list>
         <option value="$PROJECT_DIR$/topthreeauthor.py" />
         <option value="$PROJECT_DIR$/topthreearticle.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requests.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/all_files.py" />
       </list>
     </option>
@@ -348,14 +349,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/topthreearticle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -390,17 +383,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/all_files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="444">
+          <caret line="110" column="13" lean-forward="false" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
           <folding>
-            <marker date="1500883895000" expanded="true" signature="131:391" ph="select title... articles" />
-            <marker date="1500883895000" expanded="true" signature="586:939" ph="create view visitview... " />
-            <marker date="1500883895000" expanded="true" signature="624:905" ph="select name,... articles" />
-            <marker date="1500883895000" expanded="true" signature="979:1153" ph="select name,... visitview" />
-            <marker date="1500883895000" expanded="true" signature="1333:1962" ph="CREATE VIEW successrate... " />
-            <marker date="1500883895000" expanded="true" signature="2006:2160" ph="select *, to... successrate" />
+            <marker date="1500884107000" expanded="true" signature="131:391" ph="select title... articles" />
+            <marker date="1500884107000" expanded="true" signature="628:981" ph="create view visitview... " />
+            <marker date="1500884107000" expanded="true" signature="666:947" ph="select name,... articles" />
+            <marker date="1500884107000" expanded="true" signature="1021:1195" ph="select name,... visitview" />
+            <marker date="1500884107000" expanded="true" signature="1418:2047" ph="CREATE VIEW successrate... " />
+            <marker date="1500884107000" expanded="true" signature="2091:2245" ph="select *, to... successrate" />
           </folding>
         </state>
       </provider>
